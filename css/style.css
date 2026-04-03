@@ -135,8 +135,7 @@ img {
 }
 
 .btn-secondary {
-    background-color: transparent;
-    border-color: var(--color-white);
+    background-color: var(--color-blue-imepb);
     color: var(--color-white);
 }
 
@@ -147,7 +146,6 @@ img {
 
 .btn-outline {
     background-color: transparent;
-    border-color: var(--color-terracotta);
     color: var(--color-terracotta);
 }
 .btn-outline:hover {
@@ -273,6 +271,7 @@ img {
     margin-bottom: 1.5rem;
     color: var(--color-white);
     font-family: var(--font-body);
+    font-weight: 400;
 }
 
 .hero-title {
@@ -288,10 +287,10 @@ img {
 
 .hero-text {
     font-size: 1.25rem;
-    font-weight: 300;
     margin-bottom: 3rem;
-    max-width: 600px;
+    max-width: 500px;
     opacity: 0.9;
+    font-weight: bold;;
 }
 
 .hero-actions {
