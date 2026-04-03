@@ -242,7 +242,7 @@ img {
     display: flex;
     align-items: center;
     /* Use a subtle warm landscape for background */
-    background: url('/images/africa-2.jpeg') center/cover no-repeat;
+    background: url('/images/africa-1.jpeg') center/cover no-repeat;
     background-attachment: fixed;
 }
 
