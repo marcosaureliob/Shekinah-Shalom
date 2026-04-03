@@ -8,7 +8,6 @@
     --color-clay: #A64B29;        /* Darker terracotta for hover */
     --color-coffee: #2C2420;      /* Dark brown/black for text */
     --color-white: #FFFFFF;
-    --color-gold: #D4AF37;        /* Subtle gold accent */
     --color-blue-imepb: #1A365D;  /* Deep blue for church identity contrast */
     
     /* Typography */
@@ -121,7 +120,7 @@ img {
     font-weight: 500;
     border-radius: 4px;
     cursor: pointer;
-    border: 2px solid transparent;
+    border: 1px solid transparent;
 }
 
 .btn-primary {
@@ -241,17 +240,24 @@ img {
     position: relative;
     display: flex;
     align-items: center;
-    /* Use a subtle warm landscape for background */
     background: url('/images/africa-1.jpeg') center/cover no-repeat;
     background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        background: url('/images/africa-mobile-3.jpeg') center/cover no-repeat;
+        background-attachment: scroll;
+    }
 }
 
 .hero-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(to right, rgba(44,36,32,0.8) 0%, rgba(44,36,32,0.4) 100%);
+    background: linear-gradient(to right, rgba(192, 182, 176, 0.8) 0%, rgba(44,36,32,0.4) 2%);
     z-index: 1;
 }
+
 
 .hero-content {
     position: relative;
@@ -262,11 +268,11 @@ img {
 
 .subtitle {
     display: inline-block;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
     margin-bottom: 1.5rem;
-    color: var(--color-gold);
+    color: var(--color-white);
+    font-family: var(--font-body);
 }
 
 .hero-title {
@@ -447,7 +453,7 @@ img {
 }
 
 .cd-section .section-label {
-    color: var(--color-gold);
+    color: var(--color-terracotta);
 }
 
 .cd-section .section-title {
@@ -590,7 +596,7 @@ img {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    color: var(--color-gold);
+    color: var(--color-terracotta);
     font-weight: 500;
     font-size: 1.125rem;
     margin-bottom: 0.5rem;
