@@ -238,13 +238,13 @@ img {
     position: relative;
     display: flex;
     align-items: center;
-    background: url('/images/africa-1.jpeg') center/cover no-repeat;
+    background: url('/images/shekinah.jpeg') center/cover no-repeat;
     background-attachment: fixed;
 }
 
 @media (max-width: 768px) {
     .hero {
-        background: url('/images/africa-mobile-3.jpeg') center/cover no-repeat;
+        background: url('/images/shekinah-mobile.jpeg') center/cover no-repeat;
         background-attachment: scroll;
     }
 }
