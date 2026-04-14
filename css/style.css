@@ -182,7 +182,7 @@ img {
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -205,8 +205,8 @@ img {
 
 .nav-menu a {
     color: var(--color-white);
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
 }
 .nav-menu a:not(.btn):hover {
     color: var(--color-terracotta);
